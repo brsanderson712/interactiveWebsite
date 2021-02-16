@@ -1,0 +1,121 @@
+* {
+  			margin: 0;
+  			padding: 0;
+		}
+		body{
+			margin: 0;
+			padding:0;
+			border:0;
+			outline: 0;
+		}
+		#mainHeader{
+			background: #ededed;
+			width: 100%;
+			height: 60px;
+			top: 0px;
+			position: absolute;
+			border-bottom: 1px solid #bfbfbf;
+
+			
+		}
+
+		#codeContainer{
+			position: relative;
+			margin: 0px;
+			width: 170px;
+			height:60px;
+			float: left;
+		
+		}
+		#codeContainer h3{
+			position: relative;
+			padding-top: 10px;
+			margin-left: 10px;
+			font-size: 30px;
+
+		}
+		#toggleBar{
+			height: 45px;
+			margin: 5px auto;
+			font-size: 15px;
+			width: 217px;
+			border:1px solid #bfbfbf; 
+			border-radius: 10px;
+		}
+		#css{
+			border-right: 1px solid #bfbfbf;
+			height: 45px;
+			border-top: none;
+			border-bottom: none;
+			border-left: none;
+			padding: 2px 7px 0px 5px;
+			float: left;
+
+		}
+		#html{
+			border-right: 1px solid #bfbfbf;
+			height: 45px;
+			border-top: none;
+			border-bottom: none;
+			border-left: none;
+			margin: 0px;
+			padding: 2px 7px 0px 5px;
+			float: left;
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 10px;
+
+		}
+		#java{
+			border-right: 1px solid #bfbfbf;
+			height: 45px;
+			border-top: none;
+			border-bottom: none;
+			border-left: none;
+			margin: 0px;
+			padding: 2px 7px 0px 5px;
+			float: left;
+		}
+		#output{
+			border-right: none;
+			height: 44px;
+			border-top: none;
+			border-bottom: none;
+			border-left: none;
+			margin: 0px;
+			padding: 2px 7px 0px 5px;
+			float: left;
+			border-top-right-radius: 10px;
+			border-bottom-right-radius: 10px;
+
+		}
+		
+
+		#box{
+						top:61px;
+			position: fixed;
+			width: 100%;
+			bottom:0;
+
+		}
+		.panel{
+			width:49%;
+			margin: 0;
+			border-top: none;
+			border-left: none;
+			float: left;
+			padding: 5px;
+
+		}
+		
+		.active{
+			background-color: #F5F9FF;
+		}
+		.highlightedButton{
+			background-color: #e4e4e4;
+		}
+		textarea{
+			resize: none;
+		}
+		.hidden{
+			display: none;
+		}

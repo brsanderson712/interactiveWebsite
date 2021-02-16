@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquery</title>
+	
+	<link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+
+	<script src="jquery.min.js"></script>
+	<script src="jquery-ui/jquery-ui.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="codePlayer.css">
+</head>
+<body>
+	<div id="mainHeader">
+		<div id="codeContainer">
+		<h3><b>CodePlayer</b></h3>
+		</div>
+			
+		<div id="toggleBar">
+			<button id="html" class="navButton active">HTML</button>
+			
+			<button id="css" class="navButton">CSS</button>
+			
+			<button id="java" class="navButton">JavaScript</button>
+			
+			<button id="output" class="navButton active">Output</button>
+		</div>
+		</div>
+		<div id="box">
+			<textarea id="htmlText" class="panel"><p id="paragraph">hello</p> world</textarea>
+
+			<textarea id="cssText" class="panel hidden">p{color:green}</textarea>
+
+			<textarea id="javaText" class="panel hidden">
+			document.getElementById("paragraph").innerHTML = "dude"</textarea>
+
+			<iframe  id="outputText" class="panel"></iframe>
+
+		</div>
+
+	
+
+
+		<script type="text/javascript" src="code.js"></script>
+
+</body>
+</html>
